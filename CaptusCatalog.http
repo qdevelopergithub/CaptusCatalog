@@ -1,0 +1,6 @@
+@CaptusCatalog_HostAddress = http://localhost:5204
+
+GET {{CaptusCatalog_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
