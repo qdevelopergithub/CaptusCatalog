@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using CaptusCatalog.Data;
 using CaptusCatalog.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -26,10 +27,8 @@ namespace CaptusCatalog.Services
         /// <returns>Detailed tax calculation result</returns>
         public TaxCalculationResult GetTax(int bookNumber, string province, decimal price, decimal? couponAmount = null, string country = "CA")
         {
-            // Validate inputs
             ValidateInputs(bookNumber, province, country);
 
-            // Non-Canada orders are tax exempt
             if (country != "CA")
             {
                 return new TaxCalculationResult
@@ -43,15 +42,13 @@ namespace CaptusCatalog.Services
                 };
             }
 
-            // Apply coupon if provided
             decimal taxableAmount = price;
             if (couponAmount.HasValue && couponAmount.Value > 0)
             {
                 taxableAmount = price - couponAmount.Value;
-                if (taxableAmount < 0) taxableAmount = 0; // Prevent negative taxable amount
+                if (taxableAmount < 0) taxableAmount = 0; 
             }
 
-            // Get tax category from BookNumber
             var productTaxCategory = _context.ProductTaxCategories
                 .FirstOrDefault(p => p.BookNumber == bookNumber);
 
@@ -62,7 +59,6 @@ namespace CaptusCatalog.Services
 
             string taxCategory = productTaxCategory.TaxCategory;
 
-            // Get tax rates for category and province
             var taxRates = _context.TaxRates
                 .FirstOrDefault(tr => tr.TaxCategory == taxCategory && tr.Province == province);
 
@@ -71,7 +67,6 @@ namespace CaptusCatalog.Services
                 throw new KeyNotFoundException($"No tax rates found for category {taxCategory} in province {province}");
             }
 
-            // Calculate tax amounts - handle potential nulls in tax rates
             double gstRate = taxRates.Gst ?? 0;
             double rstRate = taxRates.Rst ?? 0;
 
@@ -79,7 +74,6 @@ namespace CaptusCatalog.Services
             decimal rstAmount = Math.Round(taxableAmount * (decimal)rstRate, 2);
             decimal totalTaxAmount = gstAmount + rstAmount;
 
-            // Return complete tax information
             return new TaxCalculationResult
             {
                 BaseAmount = price,
@@ -111,7 +105,6 @@ namespace CaptusCatalog.Services
 
             foreach (var item in items)
             {
-                // Calculate tax for each item
                 var taxResult = GetTax(
                     item.BookNumber, 
                     province, 
@@ -119,7 +112,6 @@ namespace CaptusCatalog.Services
                     item.CouponAmount, 
                     country);
                 
-                // Add item reference to the result
                 taxResult.ItemId = item.ItemId;
                 
                 results.Add(taxResult);
@@ -133,19 +125,16 @@ namespace CaptusCatalog.Services
         /// </summary>
         private void ValidateInputs(int bookNumber, string province, string country)
         {
-            // Check if book number exists
             if (!_context.ProductTaxCategories.Any(p => p.BookNumber == bookNumber))
             {
                 throw new ArgumentException($"Invalid BookNumber: {bookNumber}");
             }
 
-            // Check if province is valid
             if (!_context.TaxRates.Any(tr => tr.Province == province))
             {
                 throw new ArgumentException($"Invalid Province: {province}");
             }
 
-            // Basic country validation
             if (string.IsNullOrWhiteSpace(country))
             {
                 throw new ArgumentException("Country cannot be empty");
@@ -163,18 +152,9 @@ namespace CaptusCatalog.Services
             if (string.IsNullOrWhiteSpace(couponCode))
                 return null;
 
-            // Print all coupons in the database for debugging
-            Console.WriteLine("All coupons in the database:");
             var allCoupons = _context.BookCoupons.ToList();
-            foreach (var c in allCoupons)
-            {
-                Console.WriteLine($"BookNumber: {c.BookNumber}, CouponCode: {c.CouponCode}, Value: {c.Value}");
-            }
+
             
-            // Log the search parameters
-            Console.WriteLine($"Looking for coupon with BookNumber={bookNumber}, CouponCode={couponCode}");
-            
-            // Get coupon from book coupon table with simpler query and case-insensitive string comparison
             var coupon = _context.BookCoupons
                 .Where(c => c.BookNumber == bookNumber)
                 .ToList()
@@ -182,10 +162,8 @@ namespace CaptusCatalog.Services
 
             if (coupon == null)
             {
-                // Output to console for debugging
                 Console.WriteLine($"No coupon found for BookNumber={bookNumber}, CouponCode={couponCode}");
                 
-                // For testing purposes, if looking for BOOK10 on BookNumber 1, return 10
                 if (bookNumber == 1 && string.Equals(couponCode, "BOOK10", StringComparison.OrdinalIgnoreCase))
                 {
                     Console.WriteLine("Returning hard-coded value for BOOK10");
@@ -200,32 +178,6 @@ namespace CaptusCatalog.Services
         }
     }
 
-    /// <summary>
-    /// Represents an item in a shopping cart
-    /// </summary>
-    public class CartItem
-    {
-        public string ItemId { get; set; }
-        public int BookNumber { get; set; }
-        public decimal Price { get; set; }
-        public decimal? CouponAmount { get; set; }
-    }
-
-    /// <summary>
-    /// Contains detailed results of tax calculation
-    /// </summary>
-    public class TaxCalculationResult
-    {
-        public string ItemId { get; set; }
-        public decimal BaseAmount { get; set; }
-        public decimal DiscountedAmount { get; set; }
-        public decimal GstRate { get; set; }
-        public decimal RstRate { get; set; }
-        public decimal GstAmount { get; set; }
-        public decimal RstAmount { get; set; }
-        public decimal TotalTaxAmount { get; set; }
-        public decimal TotalAmount { get; set; }
-        public string TaxCategory { get; set; }
-        public string Province { get; set; }
-    }
+   
+   
 } 

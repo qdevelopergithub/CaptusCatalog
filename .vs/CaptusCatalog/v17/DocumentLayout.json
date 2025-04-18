@@ -1,0 +1,470 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.net\\CaptusCatalog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\models\\taxcalculationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:models\\taxcalculationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\models\\taxrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:models\\taxrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\models\\proformainvoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:models\\proformainvoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\models\\proformainvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:models\\proformainvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\models\\producttaxcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:models\\producttaxcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\models\\onlinebookorderinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:models\\onlinebookorderinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\models\\netorderresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:models\\netorderresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\models\\dtproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:models\\dtproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\models\\cataloguepricing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:models\\cataloguepricing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\models\\catalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:models\\catalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\models\\catalogitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:models\\catalogitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\models\\carttaxrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:models\\carttaxrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\models\\bookorderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:models\\bookorderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\models\\bookcoupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:models\\bookcoupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\services\\taxcalculationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:services\\taxcalculationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\controllers\\taxcalculationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:controllers\\taxcalculationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\captuscatalog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:captuscatalog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|d:\\.net\\captuscatalog\\migrations\\20250415110006_captuscatalog.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8AB0D-EB77-4BB6-9682-42CC5848247D}|CaptusCatalog.csproj|solutionrelative:migrations\\20250415110006_captuscatalog.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Models\\CartItem.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Models\\CartItem.cs",
+              "RelativeToolTip": "Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:50:10.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TaxCalculationService.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Services\\TaxCalculationService.cs",
+              "RelativeDocumentMoniker": "Services\\TaxCalculationService.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Services\\TaxCalculationService.cs",
+              "RelativeToolTip": "Services\\TaxCalculationService.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAmwJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:47:40.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaxCalculationResult.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Models\\TaxCalculationResult.cs",
+              "RelativeDocumentMoniker": "Models\\TaxCalculationResult.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Models\\TaxCalculationResult.cs",
+              "RelativeToolTip": "Models\\TaxCalculationResult.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAywBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:48:33.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CartTaxRequest.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Models\\CartTaxRequest.cs",
+              "RelativeDocumentMoniker": "Models\\CartTaxRequest.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Models\\CartTaxRequest.cs",
+              "RelativeToolTip": "Models\\CartTaxRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:45:46.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductTaxCategory.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Models\\ProductTaxCategory.cs",
+              "RelativeDocumentMoniker": "Models\\ProductTaxCategory.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Models\\ProductTaxCategory.cs",
+              "RelativeToolTip": "Models\\ProductTaxCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:41:27.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OnlineBookOrderInvoice.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Models\\OnlineBookOrderInvoice.cs",
+              "RelativeDocumentMoniker": "Models\\OnlineBookOrderInvoice.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Models\\OnlineBookOrderInvoice.cs",
+              "RelativeToolTip": "Models\\OnlineBookOrderInvoice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:41:26.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NetOrderResult.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Models\\NetOrderResult.cs",
+              "RelativeDocumentMoniker": "Models\\NetOrderResult.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Models\\NetOrderResult.cs",
+              "RelativeToolTip": "Models\\NetOrderResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:41:24.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dtproperty.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Models\\Dtproperty.cs",
+              "RelativeDocumentMoniker": "Models\\Dtproperty.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Models\\Dtproperty.cs",
+              "RelativeToolTip": "Models\\Dtproperty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:41:23.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Catalogue.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Models\\Catalogue.cs",
+              "RelativeDocumentMoniker": "Models\\Catalogue.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Models\\Catalogue.cs",
+              "RelativeToolTip": "Models\\Catalogue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:41:18.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Catalogitem.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Models\\Catalogitem.cs",
+              "RelativeDocumentMoniker": "Models\\Catalogitem.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Models\\Catalogitem.cs",
+              "RelativeToolTip": "Models\\Catalogitem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:41:16.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BookOrderItem.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Models\\BookOrderItem.cs",
+              "RelativeDocumentMoniker": "Models\\BookOrderItem.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Models\\BookOrderItem.cs",
+              "RelativeToolTip": "Models\\BookOrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:41:14.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookCoupon.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Models\\BookCoupon.cs",
+              "RelativeDocumentMoniker": "Models\\BookCoupon.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Models\\BookCoupon.cs",
+              "RelativeToolTip": "Models\\BookCoupon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:41:12.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaxRate.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Models\\TaxRate.cs",
+              "RelativeDocumentMoniker": "Models\\TaxRate.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Models\\TaxRate.cs",
+              "RelativeToolTip": "Models\\TaxRate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:37:33.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProformaInvoiceItem.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Models\\ProformaInvoiceItem.cs",
+              "RelativeDocumentMoniker": "Models\\ProformaInvoiceItem.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Models\\ProformaInvoiceItem.cs",
+              "RelativeToolTip": "Models\\ProformaInvoiceItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:37:31.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProformaInvoice.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Models\\ProformaInvoice.cs",
+              "RelativeDocumentMoniker": "Models\\ProformaInvoice.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Models\\ProformaInvoice.cs",
+              "RelativeToolTip": "Models\\ProformaInvoice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:37:30.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Address.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Models\\Address.cs",
+              "RelativeDocumentMoniker": "Models\\Address.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Models\\Address.cs",
+              "RelativeToolTip": "Models\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:37:27.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CataloguePricing.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Models\\CataloguePricing.cs",
+              "RelativeDocumentMoniker": "Models\\CataloguePricing.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Models\\CataloguePricing.cs",
+              "RelativeToolTip": "Models\\CataloguePricing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:37:13.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CaptusCatalog",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\CaptusCatalog.csproj",
+              "RelativeDocumentMoniker": "CaptusCatalog.csproj",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\CaptusCatalog.csproj",
+              "RelativeToolTip": "CaptusCatalog.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-18T09:35:46.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Data\\DbInitializer.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "Data\\DbInitializer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:31:38.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TaxCalculationController.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Controllers\\TaxCalculationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TaxCalculationController.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Controllers\\TaxCalculationController.cs*",
+              "RelativeToolTip": "Controllers\\TaxCalculationController.cs*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:27:05.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "Models\\Contact.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Models\\Contact.cs",
+              "RelativeToolTip": "Models\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T04:26:09.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T04:22:04.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250415110006_Captuscatalog.Designer.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Migrations\\20250415110006_Captuscatalog.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250415110006_Captuscatalog.Designer.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Migrations\\20250415110006_Captuscatalog.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250415110006_Captuscatalog.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T04:21:53.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T12:56:12.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-15T10:52:33.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.net\\CaptusCatalog\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\.net\\CaptusCatalog\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T09:19:41.15Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

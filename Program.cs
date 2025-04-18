@@ -1,4 +1,4 @@
-using CaptusCatalog.Models;
+using CaptusCatalog.Data;
 using CaptusCatalog.Services;
 using Microsoft.EntityFrameworkCore;
 

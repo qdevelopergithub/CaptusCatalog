@@ -4,6 +4,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Linq;
 using System.Collections.Generic;
+using CaptusCatalog.Models;
 
 namespace CaptusCatalog.Controllers
 {
@@ -66,7 +67,6 @@ namespace CaptusCatalog.Controllers
 
                 var results = _taxService.CalculateMixedCartTaxes(request.Items, request.Province, request.Country);
                 
-                // Calculate summary
                 decimal totalBeforeTax = request.Items.Sum(i => i.Price);
                 decimal totalDiscounted = results.Sum(r => r.DiscountedAmount);
                 decimal totalGst = results.Sum(r => r.GstAmount);
@@ -129,10 +129,5 @@ namespace CaptusCatalog.Controllers
         }
     }
 
-    public class CartTaxRequest
-    {
-        public List<CartItem> Items { get; set; } = new List<CartItem>();
-        public string Province { get; set; } = string.Empty;
-        public string Country { get; set; } = "CA";
-    }
+   
 } 
