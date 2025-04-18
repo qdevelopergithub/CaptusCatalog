@@ -1,0 +1,75 @@
+[
+  {
+    "ContainingType": "CaptusCatalog.Controllers.TaxCalculationController",
+    "Method": "CalculateTax",
+    "RelativePath": "api/TaxCalculation/calculate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "province",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "couponAmount",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "country",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaptusCatalog.Controllers.TaxCalculationController",
+    "Method": "CalculateCartTax",
+    "RelativePath": "api/TaxCalculation/calculate-cart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CaptusCatalog.Models.CartTaxRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaptusCatalog.Controllers.TaxCalculationController",
+    "Method": "GetCoupon",
+    "RelativePath": "api/TaxCalculation/coupon",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "couponCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
